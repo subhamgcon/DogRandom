@@ -1,23 +1,26 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-color: azure;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .button-23 {
-  background-color: #FFFFFF;
+  background-color: rgb(32, 114, 114);
   border: 1px solid #222222;
   border-radius: 8px;
   box-sizing: border-box;
   color: #222222;
   cursor: pointer;
   display: inline-block;
-  font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
-  margin: 0;
-  outline: none;
-  padding: 13px 23px;
+  margin: 50px;
+  outline: black;
+  padding: 23px 33px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -29,7 +32,7 @@ html, body {
 }
 
 .button-23:focus-visible {
-  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  box-shadow: royalblue 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
   transition: box-shadow .2s;
 }
 
